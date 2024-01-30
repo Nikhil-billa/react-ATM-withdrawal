@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.denominations-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #382f5a;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  height: 75px;
+  width: 300px;
+  outline: none;
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.container {
+  background-color: #150b3e;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  height: 80%;
+  padding: 25px;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.icon {
+  background-color: #c7d2fe;
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 45px;
+  height: 80px;
+  width: 80px;
+  font-weight: bold;
+  border-radius: 40px;
+}
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.amount {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Roboto';
+}
+
+.INR {
+  color: #585076;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.withdraw-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.choosing-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.withdraw-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
